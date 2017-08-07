@@ -17,4 +17,4 @@ export class WeatherListComponent implements OnInit{
 
     ngOnInit():any {
         this.weatherItems = this._weatherService.getWeatherItems();
-}
+}}
